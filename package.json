@@ -9,7 +9,7 @@
     "url": "https://github.com/bcomnes/comnes.org/issues"
   },
   "devDependencies": {
-    "@voxpelli/tsconfig": "^15.0.0",
+    "@voxpelli/tsconfig": "^16.1.0",
     "auto-changelog": "^2.0.0",
     "classnames": "^2.3.2",
     "gh-release": "^7.0.0",
@@ -19,7 +19,7 @@
     "npm-run-all2": "^8.0.1",
     "neostandard": "^0.13.0",
     "@domstack/static": "^11.0.0",
-    "typescript": "~5.8.2",
+    "typescript": "~5.9.3",
     "uland-isomorphic": "^2.0.0"
   },
   "dependencies": {
