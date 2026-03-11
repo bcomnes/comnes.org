@@ -1,12 +1,12 @@
 {
-  "name": "comnes.net",
-  "description": "comnes.net website",
+  "name": "comnes.org",
+  "description": "comnes.org website",
   "private": true,
   "version": "0.0.1",
   "type": "module",
   "author": "Bret Comnes <bcomnes@gmail.com> (https://bret.io)",
   "bugs": {
-    "url": "https://github.com/bcomnes/comnes.net/issues"
+    "url": "https://github.com/bcomnes/comnes.org/issues"
   },
   "devDependencies": {
     "@voxpelli/tsconfig": "^15.0.0",
@@ -15,6 +15,7 @@
     "gh-release": "^7.0.0",
     "jsonfeed-to-atom": "^1.2.4",
     "p-map": "^7.0.2",
+    "async-neocities": "^4.0.3",
     "npm-run-all2": "^8.0.1",
     "neostandard": "^0.13.0",
     "@domstack/static": "^11.0.0",
@@ -27,12 +28,12 @@
     "mine.css": "^10.0.0",
     "xmlbuilder": "^15.1.1"
   },
-  "homepage": "https://github.com/bcomnes/comnes.net",
+  "homepage": "https://github.com/bcomnes/comnes.org",
   "keywords": [],
   "license": "GPL-3.0-or-later",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bcomnes/comnes.net.git"
+    "url": "https://github.com/bcomnes/comnes.org.git"
   },
   "scripts": {
     "test": "run-s test:*",
@@ -42,6 +43,8 @@
     "build:domstack": "domstack",
     "watch": "npm run clean && run-p watch:*",
     "watch:domstack": "npm run build:domstack -- --watch --drafts",
+    "deploy": "run-s build deploy:*",
+    "deploy:async-neocities": "async-neocities --src public --cleanup --supporter",
     "generate-icon": "npx gravatar-favicons --config favicon-config.js",
     "clean": "rm -rf public && mkdir -p public",
     "start": "npm run watch",

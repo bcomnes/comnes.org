@@ -3,10 +3,10 @@ export default {
   dest: './src/favicons/',
   faviconConfig: {
     path: '/favicons/', // Path for overriding default icons path. `string`
-    appName: 'comnes.net', // Your application's name. `string`
+    appName: 'comnes.org', // Your application's name. `string`
     appDescription: 'Bret Comnes personal website', // Your application's description. `string`
     developerName: 'Bret Comnes', // Your (or your developer's) name. `string`
-    developerURL: 'https://comnes.net', // Your (or your developer's) URL. `string`
+    developerURL: 'https://comnes.org', // Your (or your developer's) URL. `string`
     dir: 'auto', // Primary text direction for name, short_name, and description
     lang: 'en-US', // Primary language for name and short_name
     background: '#232830', // Background colour for flattened icons. `string`

@@ -1,6 +1,6 @@
 ---
 title: ''
 ---
-# comnes.net
+# comnes.org
 
-Welcome to [comnes.net](./)
+Welcome to [comnes.org](./)

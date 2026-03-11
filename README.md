@@ -1,7 +1,7 @@
-# comnes.net
-[![Actions Status](https://github.com/bcomnes/comnes.net/workflows/tests/badge.svg)](https://github.com/bcomnes/comnes.net/actions)
+# comnes.org
+[![Actions Status](https://github.com/bcomnes/comnes.org/workflows/tests/badge.svg)](https://github.com/bcomnes/comnes.org/actions)
 
-[comnes.net](https://comnes.net/) website.
+[comnes.org](https://comnes.org/) website.
 
 ## Usage
 
