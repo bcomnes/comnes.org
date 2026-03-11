@@ -10,19 +10,18 @@ jobs:
     runs-on: ${{ matrix.os }}
 
     strategy:
-      fail-fast: false
       matrix:
         os: [ubuntu-latest]
-        node: ['lts/*']
+        node: ["lts/*"]
 
     steps:
-    - uses: actions/checkout@v6
-    - name: Use Node.js ${{ matrix.node }}
-      uses: actions/setup-node@v6
-      with:
-        node-version: ${{ matrix.node }}
-    - run: npm i
-    - run: npm test --color=always
+      - uses: actions/checkout@v6
+      - name: Use Node.js ${{ matrix.node }}
+        uses: actions/setup-node@v6
+        with:
+          node-version: ${{ matrix.node }}
+      - run: npm i
+      - run: npm test --color=always
 
   automerge:
     needs: test
