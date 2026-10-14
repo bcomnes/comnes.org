@@ -17,7 +17,7 @@
     "p-map": "^7.0.2",
     "async-neocities": "^4.0.3",
     "npm-run-all2": "^9.0.1",
-    "neostandard": "^0.13.0",
+    "neostandard": "^0.14.0",
     "@domstack/static": "^11.0.0",
     "typescript": "~5.9.3",
     "uland-isomorphic": "^2.0.0"
